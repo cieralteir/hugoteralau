@@ -1,0 +1,111 @@
+@font-face { 
+    font-family: 'Roboto';
+    src: url('{{ asset('fonts/Roboto-Regular.ttf') }}'); 
+}
+
+body {
+	background-color: #0E0B16;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3, h4 {
+	color: #C5C1C0;
+}
+
+.comment {
+	font-size: 12px;
+}
+
+.date {
+	font-size: 11px;
+}
+
+.profile {
+	width: 150px;
+	height: 150px;
+	margin-top: 5vh;
+}
+
+.img-circle {
+	background-color: #1A1A1A;
+	border-color: #FAFAFA;
+	box-shadow: 0px 0px 75px #005B5F;
+}
+
+.well {
+	text-align: left;
+	font-size: 12px;
+	margin-top: 50px;
+	background-color: #0E0B16;
+	color: #C5C1C0;
+	box-shadow: 0px 0px 10px #005B5F;
+	border-style: none;
+}
+
+.btn {
+	width: 70px;
+}
+
+.btn-custom {
+	background-color: #0E0B16;
+	color: #C5C1C0;
+	border-color: #005B5F;
+}
+
+.panel {
+	background-color: #0E0B16;
+	box-shadow: none;
+	color: #C5C1C0;
+}
+
+.panel-footer {
+	background-color: #F8F8F8;
+	border-style: none;
+}
+
+.panel-post {
+	text-align: left;
+	box-shadow: 0px 0px 15px #005B5F;
+}
+
+.no-border {
+    border: none;
+    border-bottom: 1px solid #A8A8A8;
+    width: 100%;
+    padding: 5px;
+    background-color: #0E0B16;
+	color: #C5C1C0;
+}
+
+.no-border:focus {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #000000;
+    width: 100%;
+    padding: 5px;
+    background-color: #0E0B16;
+	color: #C5C1C0;
+}
+
+.pagination > li > a {
+    background-color: #0E0B16;
+    color: #C5C1C0;
+}
+
+.pagination > li > a:hover {
+    background-color: black;
+    color: #C5C1C0;
+}
+
+.pagination > li.disabled > span,
+.pagination > li.disabled:hover > span {
+    background-color: #0E0B16;
+    color: #C5C1C0;
+}
+
+.pagination > li.active > span,
+.pagination > li.active:hover > span {
+    background-color: #005B5F;
+    border-color: #C5C1C0;
+    color: #C5C1C0;
+}
