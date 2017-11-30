@@ -1,7 +1,7 @@
 @extends('template.main')
 
 @section('content')
-	<!-- GIT Test 2 GG -->
+	<!-- GIT Test 2 GG Cyne -->
 	<div class = "panel">
 		<div class = "panel-body">
 			<form id = "form_post" role = "form" method = "POST" action = "{{ action('PostController@store') }}">
