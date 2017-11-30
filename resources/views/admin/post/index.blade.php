@@ -1,6 +1,7 @@
 @extends('template.main')
 
 @section('content')
+	<!-- GIT Test -->
 	<div class = "panel">
 		<div class = "panel-body">
 			<form id = "form_post" role = "form" method = "POST" action = "{{ action('Admin\PostController@store') }}">
